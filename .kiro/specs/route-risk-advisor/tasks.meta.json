@@ -1,0 +1,966 @@
+{
+  "pbtResults": {
+    "5.3 Write property test for score-to-level mapping": {
+      "status": "passed",
+      "lastRunTimestamp": 1790447477532
+    },
+    "5.2 Write property test for bounded integer scores": {
+      "status": "passed",
+      "lastRunTimestamp": 1790447765018
+    },
+    "14.2 Write property test for location-count validation": {
+      "status": "passed",
+      "lastRunTimestamp": 1790449444518
+    }
+  },
+  "executionHistory": {
+    "1. Set up Maven project structure and testing frameworks": [
+      {
+        "executionId": "9359bf67-ccca-4f9a-82e4-59fb066a991c",
+        "chatSessionId": "sess_2eb6071a-b80c-451b-adad-dd3a74869f60",
+        "timestamp": 1790443829174
+      },
+      {
+        "executionId": "7d5cb138-9560-49c3-b75a-9c8be3cd74d9",
+        "chatSessionId": "sess_2eb6071a-b80c-451b-adad-dd3a74869f60",
+        "timestamp": 1790444770319
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578146
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446596771
+      }
+    ],
+    "2.1 Implement geometry and route records": [
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444384124
+      },
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444639845
+      }
+    ],
+    "2.2 Implement risk and classification records/enums": [
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444385502
+      },
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444640763
+      }
+    ],
+    "2.3 Implement insurance and safest-route result records/enums": [
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444386155
+      },
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444641766
+      }
+    ],
+    "2. Implement core data models": [
+      {
+        "executionId": "a9a713ce-b757-49f6-a56d-62e01de1d7dd",
+        "chatSessionId": "sess_a63578ec-d1f2-4c4a-ad37-161782289ae6",
+        "timestamp": 1790444641827
+      }
+    ],
+    "3. Define the provider abstraction layer": [
+      {
+        "executionId": "ef8e3ada-5db9-46fd-8645-539a58fcdead",
+        "chatSessionId": "sess_0affcb1d-cc26-49b5-805c-68b252ccd441",
+        "timestamp": 1790445284121
+      },
+      {
+        "executionId": "ef8e3ada-5db9-46fd-8645-539a58fcdead",
+        "chatSessionId": "sess_0affcb1d-cc26-49b5-805c-68b252ccd441",
+        "timestamp": 1790445428496
+      }
+    ],
+    "4.1 Implement `ServiceAreaValidator` with point-in-polygon containment": [
+      {
+        "executionId": "887148da-f43d-47f6-9b3b-b8b72ac362c2",
+        "chatSessionId": "sess_b9f08e2e-0079-45fc-b066-8dc5966a58af",
+        "timestamp": 1790445446969
+      },
+      {
+        "executionId": "887148da-f43d-47f6-9b3b-b8b72ac362c2",
+        "chatSessionId": "sess_b9f08e2e-0079-45fc-b066-8dc5966a58af",
+        "timestamp": 1790445895074
+      }
+    ],
+    "4.2 Write property test for Service_Area containment": [
+      {
+        "executionId": "d76c1026-b7dd-41be-839b-4a710ad58d26",
+        "chatSessionId": "sess_fd235131-1cf1-488d-b2e9-8b88ac69e463",
+        "timestamp": 1790445907281
+      },
+      {
+        "executionId": "d76c1026-b7dd-41be-839b-4a710ad58d26",
+        "chatSessionId": "sess_fd235131-1cf1-488d-b2e9-8b88ac69e463",
+        "timestamp": 1790446090533
+      }
+    ],
+    "4. Implement the Service_Area validator": [
+      {
+        "executionId": "d76c1026-b7dd-41be-839b-4a710ad58d26",
+        "chatSessionId": "sess_fd235131-1cf1-488d-b2e9-8b88ac69e463",
+        "timestamp": 1790446090615
+      }
+    ],
+    "5.1 Implement `RiskScorer` distance-weighted mean scoring and level banding": [
+      {
+        "executionId": "887da90c-a346-4386-a775-252c0a6652db",
+        "chatSessionId": "sess_326a264b-2e86-48e1-98ee-2ef9a4d905e6",
+        "timestamp": 1790446112812
+      },
+      {
+        "executionId": "887da90c-a346-4386-a775-252c0a6652db",
+        "chatSessionId": "sess_326a264b-2e86-48e1-98ee-2ef9a4d905e6",
+        "timestamp": 1790446566469
+      }
+    ],
+    "5.2 Write property test for bounded integer scores": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578223
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447123638
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447183754
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447192154
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448066975
+      }
+    ],
+    "5.3 Write property test for score-to-level mapping": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578282
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447124578
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447183835
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447193610
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447685933
+      }
+    ],
+    "6. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578344
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447183895
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451598260
+      }
+    ],
+    "7.1 Implement `RouteClassifier` orchestration over crash/crime/fire providers": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578401
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447125538
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447183951
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447194582
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447684138
+      }
+    ],
+    "7.2 Write property test for Unknown aggregation and category completeness": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578488
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184008
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448078490
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448273660
+      }
+    ],
+    "7.3 Write property test for isolated provider failure": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578544
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184094
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448079446
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448274290
+      }
+    ],
+    "7.4 Write unit tests for classifier provider wiring": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578597
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184151
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448281649
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449136910
+      }
+    ],
+    "8.1 Implement `InsuranceAdvisor` mapping, baseline, and none-produced rules": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578653
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447126930
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184213
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447195951
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447682733
+      }
+    ],
+    "8.2 Write property test for Medium/High insurance mapping": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578708
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184265
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448080864
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448275692
+      }
+    ],
+    "8.3 Write property test for all-Low baseline recommendation": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578758
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184313
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448284256
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448585181
+      }
+    ],
+    "8.4 Write property test for justified recommendations": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578811
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184365
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448284388
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448584348
+      }
+    ],
+    "8.5 Write property test for unmappable input none-produced": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578861
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184417
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448284965
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448581936
+      }
+    ],
+    "9.1 Implement `RouteFinder` per-category minimum selection with tie-breaking": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578910
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447127829
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184469
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447196618
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447685085
+      }
+    ],
+    "9.2 Write property test for safest-route ordering and tie-breaking": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446578958
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184522
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448081622
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448276645
+      }
+    ],
+    "10. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579007
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184570
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451601367
+      }
+    ],
+    "11.1 Implement placeholder Geocoding and Routing providers": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579057
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446600107
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447116343
+      }
+    ],
+    "11.2 Implement placeholder Crash, Crime, and Fire providers": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579141
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446604217
+      },
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790447119154
+      }
+    ],
+    "11.3 Write property test for placeholder validity and in-area output": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579193
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184618
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447692134
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448069131
+      }
+    ],
+    "12.1 Wire provider beans via `@ConditionalOnProperty` with placeholder defaults": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579239
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184673
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447693087
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448068391
+      }
+    ],
+    "12.2 Implement startup validator halting on unresolved implementations": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579291
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184760
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448078086
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448277660
+      }
+    ],
+    "12.3 Write integration tests for provider selection and startup validation": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579339
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184810
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448591595
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449136421
+      }
+    ],
+    "12.4 Write architecture test for the abstraction constraint": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579388
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184863
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448285886
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448583381
+      }
+    ],
+    "13.1 Implement `RouteRiskService` orchestration with timeout/abort policy": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579438
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184913
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448589474
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449137864
+      }
+    ],
+    "13.2 Write property test for input validation": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579490
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447184964
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449145078
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449562241
+      }
+    ],
+    "13.3 Write property test for resolution-failure identification": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579539
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185020
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449146044
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449578123
+      }
+    ],
+    "13.4 Write property test for identical-coordinate short-circuit": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579589
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185075
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449147404
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449822062
+      }
+    ],
+    "13.5 Write integration tests for classification timeout policy": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579639
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185122
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449583626
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449821069
+      }
+    ],
+    "14.1 Implement `SafestRouteService` orchestration with count validation and atomic abort": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579687
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185174
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448590835
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449138890
+      }
+    ],
+    "14.2 Write property test for location-count validation": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579736
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185225
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449148096
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449560917
+      }
+    ],
+    "14.3 Write property test for atomic abort without partial results": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579784
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185273
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449584595
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449822814
+      }
+    ],
+    "14.4 Write unit/integration tests for classifier-per-candidate and abort messages": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579839
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185325
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449585601
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449978838
+      }
+    ],
+    "15. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579891
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185381
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451604966
+      }
+    ],
+    "16.1 Implement classification and safest-route endpoints with error mapping": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579942
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185435
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449144122
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449578045
+      }
+    ],
+    "16.2 Write end-to-end integration tests for both endpoints": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446579995
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185488
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449983608
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451587382
+      }
+    ],
+    "17. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "225744c8-62d7-425c-b787-f93dc6f91a14",
+        "chatSessionId": "sess_4018ab76-cf93-4435-bf93-63167807eb61",
+        "timestamp": 1790446580046
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790447185536
+      },
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451608940
+      }
+    ],
+    "5. Implement the risk scorer": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448067112
+      }
+    ],
+    "11. Implement the placeholder providers": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448069215
+      }
+    ],
+    "9. Implement the Route_Finder": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448276704
+      }
+    ],
+    "8. Implement the Insurance_Advisor": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790448585243
+      }
+    ],
+    "12. Implement Spring provider-selection configuration and startup validation": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449136516
+      }
+    ],
+    "7. Implement the Route_Classifier": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449136973
+      }
+    ],
+    "13. Implement the Route Risk Service (classification flow)": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449822120
+      }
+    ],
+    "14. Implement the Safest Route Service (comparison flow)": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790449978918
+      }
+    ],
+    "16. Implement the REST controllers and error envelope": [
+      {
+        "executionId": "0259a9c6-40ae-4bbd-9532-6c196e87e12c",
+        "chatSessionId": "sess_e032ac45-3214-4d45-accc-010ddf0f6716",
+        "timestamp": 1790451587463
+      }
+    ]
+  }
+}

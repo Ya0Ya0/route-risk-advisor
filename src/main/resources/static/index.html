@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Route Risk Advisor</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Route Risk Advisor</h1>
+    <p class="subtitle">Classify driving-route risk and find the safest path across Miami-Dade County.</p>
+  </header>
+
+  <main class="layout">
+    <!-- Panel A: Classify a route -->
+    <section class="panel" id="classify-panel">
+      <h2>Classify a route</h2>
+      <p class="panel-hint">Enter an origin and destination to see per-category risk and insurance recommendations.</p>
+
+      <form id="classify-form" autocomplete="off">
+        <label for="classify-origin">Origin</label>
+        <input type="text" id="classify-origin" name="origin" placeholder="e.g. Downtown Miami" required />
+
+        <label for="classify-destination">Destination</label>
+        <input type="text" id="classify-destination" name="destination" placeholder="e.g. Coral Gables" required />
+
+        <button type="submit" class="primary">Classify</button>
+      </form>
+
+      <div id="classify-status" class="status" role="status" aria-live="polite"></div>
+      <div id="classify-result" class="result"></div>
+      <div id="classify-map" class="map"></div>
+    </section>
+
+    <!-- Panel B: Find the safest route -->
+    <section class="panel" id="safest-panel">
+      <h2>Find the safest route</h2>
+      <p class="panel-hint">Add between 2 and 25 locations. We compare candidate routes and report the safest per category.</p>
+
+      <form id="safest-form" autocomplete="off">
+        <div id="locations-list"></div>
+        <div class="row-actions">
+          <button type="button" id="add-location" class="secondary">Add location</button>
+          <span id="location-count" class="count"></span>
+        </div>
+        <button type="submit" class="primary">Find safest route</button>
+      </form>
+
+      <div id="safest-status" class="status" role="status" aria-live="polite"></div>
+      <div id="safest-result" class="result"></div>
+      <div id="safest-map" class="map"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Build/test scratch logs
+build-*.txt
+test-*.txt
+full-suite-output.txt
+progress-probe.txt
+startup.txt
+*-output.txt
+_*.txt
+
+# jqwik
+.jqwik-database

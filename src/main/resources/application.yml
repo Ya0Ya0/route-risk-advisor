@@ -1,0 +1,25 @@
+route-risk-advisor:
+  service-area:
+    county: "Miami-Dade"
+    state: "FL"
+  providers:
+    geocoding: nominatim          # placeholder | openrouteservice | nominatim
+    routing: osrm                 # placeholder | openrouteservice | osrm
+    crash: placeholder            # future: flhsmv | nhtsa-fars | fdot
+    crime: placeholder            # future: miami-dade-socrata | arcgis
+    fire: placeholder             # future: city-fire
+    ors:
+      api-key: ${ORS_API_KEY:}
+      base-url: https://api.openrouteservice.org
+    osm:
+      nominatim-base-url: https://nominatim.openstreetmap.org
+      osrm-base-url: https://router.project-osrm.org
+      user-agent: "route-risk-advisor/1.0 (contact: set-a-contact)"
+  timeouts:
+    geocoding-ms: 10000
+    routing-ms: 10000
+    provider-ms: 5000
+    classify-ms: 5000
+    recommend-ms: 2000
+    service-area-ms: 2000
+    safest-classify-ms: 10000
